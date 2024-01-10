@@ -69,3 +69,5 @@ def handle_video(message):
 
     except Exception as e:
         print("An error occurred while processing the video file:", str(e)) 
+
+bot.polling()
